@@ -3,12 +3,16 @@
     "name": "난 평수계산 못해요",
     "version": "1.2",
     "description": "부동산 리스트의 m2면적을 평수로 계산해줍니다.",
-    "permissions": ["activeTab", "scripting"],
+    "permissions": ["activeTab", "scripting", "storage", "tabs"],
     "host_permissions": ["https://www.dabangapp.com/*", "https://www.zigbang.com/*"],
     "content_scripts": [
       {
         "matches": ["https://www.dabangapp.com/*", "https://www.zigbang.com/*"],
-        "js": ["content.js"]
+        "js": ["content.js"],
+        "run_at": "document_idle"
       }
-    ]
+    ],
+    "action" : {
+      "default_popup": "index.html"
+    }
   }
