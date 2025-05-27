@@ -26,9 +26,9 @@
 100.5 -> ㎡	100.5㎡ (30.40평)
 
 개발 환경
-•	JavaScript (Vanilla)
-•	MutationObserver API
-•	ES6+ Syntax
-라이선스
+•	JavaScript (Vanilla)<br>
+•	MutationObserver API<br>
+•	ES6+ Syntax<br>
 
+라이선스
 MIT © 2025
